@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name         CSDN Mod
+@namespace    https://github.com/chawyehsu
+@version      0.1.0
+@description  A customized userstyle for CSDN
+@author       Chaweye Hsu (https://github.com/chawyehsu)
+@homepageURL  https://github.com/chawyehsu/csdn-mod
+@supportURL   https://github.com/chawyehsu/csdn-mod/issues
+@license      CC0-1.0
+==/UserStyle== */
+@-moz-document domain("csdn.net") {
+    /* 顶部“创作中心”按钮 */
+    .toolbar-btn-write > a
+    {
+        background: #555666!important;
+    }
+
+    /* 顶部搜索框按钮 */
+    #toolbar-search-button
+    {
+        background-color: #555666!important;
+    }
+}
+
+@-moz-document domain("blog.csdn.net") {
+    /* 边栏模块 */
+    #asideArchive,
+    #asideCategory,
+    #asideCustom,
+    #asideHotArticle,
+    #asideNewArticle,
+    #asideNewComments,
+    /* 浮动菜单 */
+    a.option-box[data-type=guide],
+    a.option-box[data-type=cs],
+    a.option-box[data-type=report],
+    /* 正文底部工具栏 */
+    .left-toolbox,
+    /* 推荐模块 */
+    .recommend-box,
+    .recommend-list-box,
+    .template-box,
+    /* 右侧模块 */
+    .recommend-right_aside .kind_person,
+    /* 其它小元素 */
+    .comment-sofa-flag,
+    .triplet-prompt
+    {
+        display: none!important;
+    }
+}
+
+@-moz-document domain("download.csdn.net") {
+    /* 推荐模块 */
+    .content_recom,
+    .resource_recommend,
+    /* 右下浮动菜单 */
+    .csdn-side-toolbar,
+    /* 上传资源按钮 */
+    .upload
+    {
+        display: none!important;
+    }
+}
