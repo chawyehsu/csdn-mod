@@ -4,6 +4,8 @@
 
 A customized userstyle for CSDN.
 
+[uBlock version](https://gist.github.com/chawyehsu/2e60386f3ff85a3bf9ebd5fc71b56c78)
+
 ## License
 
 [CC0-1.0](LICENSE)
